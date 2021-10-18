@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<appSettings>
+    <add key="Corporation" value="Inphase"></add>
+    <add key="WebServicePort" value="3001"></add>
+    <add key="From" value="Inphase"></add>
+    <add key="To" value="IVPNNPI"></add>
+    <add key="QueryType" value="Query"></add>
+    <add key="Url" value="http://133.37.91.185:30201/NPI.xml"></add>
+    <add key="UserName" value="hlr"></add>
+    <add key="Password" value="8a76319249af3810e6def07b414d1451"></add>
+    <add key="TargetAddress" value="133.37.91.185"></add>
+  </appSettings>
+</root>

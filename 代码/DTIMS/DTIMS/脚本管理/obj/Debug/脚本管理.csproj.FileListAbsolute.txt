@@ -1,0 +1,5 @@
+D:\PUBLIC\20181216\DTIMS\脚本管理\bin\Debug\脚本管理.dll
+D:\PUBLIC\20181216\DTIMS\脚本管理\bin\Debug\脚本管理.pdb
+D:\PUBLIC\20181216\DTIMS\脚本管理\obj\Debug\脚本管理.csproj.CoreCompileInputs.cache
+D:\PUBLIC\20181216\DTIMS\脚本管理\obj\Debug\脚本管理.dll
+D:\PUBLIC\20181216\DTIMS\脚本管理\obj\Debug\脚本管理.pdb

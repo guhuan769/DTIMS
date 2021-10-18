@@ -1,0 +1,52 @@
+<siteMap>
+  <siteMapNode Text="My Documents" Expanded="true">
+    <siteMapNode Text="Essays">
+      <siteMapNode Text="Essay1.doc" />
+      <siteMapNode Text="Essay2.doc" />
+      <siteMapNode Text="Essay3.doc" />
+    </siteMapNode>
+    <siteMapNode Text="Short Stories">
+      <siteMapNode Text="New Document.doc" />
+      <siteMapNode Text="MyStory.doc" />
+    </siteMapNode>
+    <siteMapNode Text="Correspondence">
+      <siteMapNode Text="Backup">
+        <siteMapNode Text="Oldstuff.doc" />
+      </siteMapNode>
+      <siteMapNode Text="Dad.doc" />
+      <siteMapNode Text="Granma.doc" />
+      <siteMapNode Text="Misc.doc" />
+    </siteMapNode>
+    <siteMapNode Text="Work">
+      <siteMapNode Text="AbsenceForm.doc" />
+      <siteMapNode Text="TimeSheet.doc" />
+      <siteMapNode Text="Report1.doc" />
+      <siteMapNode Text="Report2.doc" />
+      <siteMapNode Text="Sheet1.xls" ImageUrl="images/excel.gif" />
+    </siteMapNode>
+    <siteMapNode Text="Technical">
+      <siteMapNode Text="UNIX">
+        <siteMapNode Text="Networking.doc" />
+        <siteMapNode Text="BSD44.doc" />
+        <siteMapNode Text="UsingLinux.doc" />
+        <siteMapNode Text="Socket Programming.doc" />
+        <siteMapNode Text="XWindow.doc" />
+      </siteMapNode>
+      <siteMapNode Text="TCPIP-vol1.doc" />
+      <siteMapNode Text="TCPIP-vol2.doc" />
+      <siteMapNode Text="ASPNetServerControls.doc" />
+    </siteMapNode>
+    <siteMapNode Text="E-Books">
+      <siteMapNode Text="Robinson Crusoe.doc" />
+      <siteMapNode Text="Shining.doc" />
+      <siteMapNode Text="The Outsider.doc" />
+      <siteMapNode Text="Nausea.doc" />
+      <siteMapNode Text="Booklist.xls" ImageUrl="images/excel.gif" />
+    </siteMapNode>
+    <siteMapNode Text="Resume.doc" />
+    <siteMapNode Text="My Recipes.doc" />
+    <siteMapNode Text="Test.doc" />
+    <siteMapNode Text="New Document.doc" />
+    <siteMapNode Text="MyMovies.xls" ImageUrl="images/excel.gif" />
+  </siteMapNode>
+</siteMap>

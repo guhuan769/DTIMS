@@ -1,0 +1,12 @@
+body {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 12px; border-color: #808080 #FFFFFF #FFFFFF #808080; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.borderoff { font-size: 12px; border-color: #808080 #FFFFFF #FFFFFF #808080; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; background-color: menu}
+.borderon { font-size: 12px; border-color: #FFFFFF #808080 #808080 #FFFFFF; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; background-color: menu}
+.button { border:1px solid #D4D0C8; behavior:url(images/test.htc);cursor:default;}
+td {  font-size: 12px}
+a {  color: #000000; text-decoration: none}
+a:hover {  color: #000000; text-decoration: none}
+.menu { border:1px solid #FFFFFF; height:20px; padding-top:3px; padding-left:3px; cursor:hand;behavior:url(images/menu.htc)}
+.child { border:1px solid #FFFFFF; height:20px; padding-top:3px; padding-left:3px;display:none}
+.shadow {filter: DropShadow(Color=#999999, OffX=2, OffY=2, Positive=1);	position:relative; top:-1px; left:-1px;}
+.borderall   { border: 1px solid #F27900 }
+.tden { font-size: 9px; font-family: "Verdana", "Arial", "Helvetica", "sans-serif" ; font-weight: normal}

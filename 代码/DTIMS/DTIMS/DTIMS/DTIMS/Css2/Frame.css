@@ -1,0 +1,133 @@
+﻿/* 主页面样式开始 */
+.content-header
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    font-weight: normal;
+}
+.marquee-container
+{
+    border: 0;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: middle;
+    overflow: hidden;
+    float: left;
+}
+.marquee-inner
+{
+    border: 0;
+    padding: 0 10px;
+    margin: 0;
+    overflow: hidden;
+}
+.menu-container
+{
+    border: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+a.menuAnchor
+{
+    cursor: pointer;
+}
+/* 未访问的链接 */
+a.menuAnchor:link
+{
+    color: #0080FF;
+    text-decoration: none;
+}
+/* 已访问的链接 */
+a.menuAnchor:visited
+{
+    color: #0080FF;
+    text-decoration: none;
+}
+/* 鼠标移动到链接上 */
+a.menuAnchor:hover
+{
+    color: #ff6600;
+    text-decoration: underline;
+}
+/* 鼠标按下时的链接 */
+a.menuAnchor:active
+{
+    color: #ff6600;
+    text-decoration: none;
+}
+
+ul.leftMenu
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+ul.leftMenu li
+{
+    color: #0080FF;
+    width: auto;
+    height: 20px;
+    line-height: 25px;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 0 0 0 15px;
+    border-bottom: 1px dashed #CCC;
+    background: url('../Images2/Comm/tree_ico.gif') no-repeat 5px 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* 普通颜色处理时的左边菜单鼠标进入样式 */
+ul.leftMenu li.lmmouseover
+{
+    background-color: #CCC;
+}
+
+/* 普通颜色处理时的左边菜单鼠标移出样式 */
+ul.leftMenu li.lmmouseout
+{
+    background-color: #FFF;
+}
+
+/* 普通颜色处理时的左边菜单鼠标按下样式 */
+ul.leftMenu li.lmmousedown
+{
+    background-color: #FBEC88;
+}
+
+/* 普通颜色处理时的左边菜单鼠标释放样式 */
+ul.leftMenu li.lmmouseup
+{
+    background-color: #CCC;
+}
+
+.copyright a
+{
+    color: #225EA8;
+    text-decoration: none;
+}
+
+.copyright a:hover
+{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    color: #ff6600;
+    border-bottom: 1px dotted;
+    border-right-width: 1px;
+    text-decoration: none;
+}
+
+/* 主页面样式结束 */

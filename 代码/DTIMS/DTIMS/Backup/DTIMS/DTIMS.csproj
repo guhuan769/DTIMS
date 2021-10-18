@@ -1,0 +1,931 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FCAFF07F-118E-451C-96C6-4F2C7C660129}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BJ.DTIMS</RootNamespace>
+    <AssemblyName>DTIMS</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.10301.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL" />
+    <Reference Include="CKEditor.NET, Version=3.6.2.0, Culture=neutral, PublicKeyToken=e379cdf2f8354999, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>CommDll\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Configuration.Design, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CommDll\CKEditor.NET.dll" />
+    <Content Include="CommDll\Excel.dll" />
+    <Content Include="CommDll\Interop.Excel.dll" />
+    <Content Include="CommDll\Interop.Office.dll" />
+    <Content Include="CommDll\Interop.VBIDE.dll" />
+    <Content Include="CommDll\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="CommDll\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll" />
+    <Content Include="CommDll\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll" />
+    <Content Include="CommDll\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="CommDll\Microsoft.Practices.ObjectBuilder.dll" />
+    <Content Include="CommDll\Newtonsoft.Json.dll" />
+    <Content Include="CommDll\Office.dll" />
+    <Content Include="CommDll\VBIDE.dll" />
+    <Content Include="Config\SystemConsent.xml" />
+    <Content Include="Css2\Comm\Comm.css" />
+    <Content Include="Css2\Comm\GridView.css" />
+    <Content Include="Css2\Frame.css" />
+    <Content Include="Css2\Jquery\themes\default\accordion.css" />
+    <Content Include="Css2\Jquery\themes\default\calendar.css" />
+    <Content Include="Css2\Jquery\themes\default\combo.css" />
+    <Content Include="Css2\Jquery\themes\default\combobox.css" />
+    <Content Include="Css2\Jquery\themes\default\datagrid.css" />
+    <Content Include="Css2\Jquery\themes\default\datebox.css" />
+    <Content Include="Css2\Jquery\themes\default\dialog.css" />
+    <Content Include="Css2\Jquery\themes\default\easyui.css" />
+    <Content Include="Css2\Jquery\themes\default\images\accordion_collapse.png" />
+    <Content Include="Css2\Jquery\themes\default\images\accordion_expand.png" />
+    <Content Include="Css2\Jquery\themes\default\images\blank.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\button_a_bg.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\button_plain_hover.png" />
+    <Content Include="Css2\Jquery\themes\default\images\button_span_bg.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\calendar_nextmonth.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\calendar_nextyear.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\calendar_prevmonth.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\calendar_prevyear.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\combo_arrow.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\datagrid_header_bg.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\datagrid_row_collapse.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\datagrid_row_expand.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\datagrid_sort_asc.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\datagrid_sort_desc.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\datagrid_title_bg.png" />
+    <Content Include="Css2\Jquery\themes\default\images\datebox_arrow.png" />
+    <Content Include="Css2\Jquery\themes\default\images\layout_button_down.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\layout_button_left.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\layout_button_right.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\layout_button_up.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\menu.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\menu_downarrow.png" />
+    <Content Include="Css2\Jquery\themes\default\images\menu_rightarrow.png" />
+    <Content Include="Css2\Jquery\themes\default\images\menu_sep.png" />
+    <Content Include="Css2\Jquery\themes\default\images\menu_split_downarrow.png" />
+    <Content Include="Css2\Jquery\themes\default\images\messager_error.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\messager_info.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\messager_question.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\messager_warning.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\pagination_first.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\pagination_last.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\pagination_load.png" />
+    <Content Include="Css2\Jquery\themes\default\images\pagination_loading.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\pagination_next.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\pagination_prev.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\panel_loading.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\panel_title.png" />
+    <Content Include="Css2\Jquery\themes\default\images\panel_tools.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\panel_tool_collapse.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\panel_tool_expand.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\searchbox_button.png" />
+    <Content Include="Css2\Jquery\themes\default\images\spinner_arrow_down.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\spinner_arrow_up.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\tabs_active.png" />
+    <Content Include="Css2\Jquery\themes\default\images\tabs_close.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\tabs_enabled.png" />
+    <Content Include="Css2\Jquery\themes\default\images\tabs_leftarrow.png" />
+    <Content Include="Css2\Jquery\themes\default\images\tabs_rightarrow.png" />
+    <Content Include="Css2\Jquery\themes\default\images\tree_arrows.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\tree_checkbox_0.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\tree_checkbox_1.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\tree_checkbox_2.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\tree_dnd_no.png" />
+    <Content Include="Css2\Jquery\themes\default\images\tree_dnd_yes.png" />
+    <Content Include="Css2\Jquery\themes\default\images\tree_file.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\tree_folder.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\tree_folder_open.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\tree_loading.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\validatebox_pointer.gif" />
+    <Content Include="Css2\Jquery\themes\default\images\validatebox_warning.png" />
+    <Content Include="Css2\Jquery\themes\default\layout.css" />
+    <Content Include="Css2\Jquery\themes\default\linkbutton.css" />
+    <Content Include="Css2\Jquery\themes\default\menu.css" />
+    <Content Include="Css2\Jquery\themes\default\menubutton.css" />
+    <Content Include="Css2\Jquery\themes\default\messager.css" />
+    <Content Include="Css2\Jquery\themes\default\pagination.css" />
+    <Content Include="Css2\Jquery\themes\default\panel.css" />
+    <Content Include="Css2\Jquery\themes\default\progressbar.css" />
+    <Content Include="Css2\Jquery\themes\default\propertygrid.css" />
+    <Content Include="Css2\Jquery\themes\default\searchbox.css" />
+    <Content Include="Css2\Jquery\themes\default\spinner.css" />
+    <Content Include="Css2\Jquery\themes\default\splitbutton.css" />
+    <Content Include="Css2\Jquery\themes\default\tabs.css" />
+    <Content Include="Css2\Jquery\themes\default\tree.css" />
+    <Content Include="Css2\Jquery\themes\default\validatebox.css" />
+    <Content Include="Css2\Jquery\themes\default\window.css" />
+    <Content Include="Css2\Jquery\themes\icon.css" />
+    <Content Include="Css2\Jquery\themes\icons\allSelect.png" />
+    <Content Include="Css2\Jquery\themes\icons\auth.png" />
+    <Content Include="Css2\Jquery\themes\icons\back.png" />
+    <Content Include="Css2\Jquery\themes\icons\batchOpenAccount.png" />
+    <Content Include="Css2\Jquery\themes\icons\blank.gif" />
+    <Content Include="Css2\Jquery\themes\icons\cancel.png" />
+    <Content Include="Css2\Jquery\themes\icons\Clear.png" />
+    <Content Include="Css2\Jquery\themes\icons\cut.png" />
+    <Content Include="Css2\Jquery\themes\icons\edit_add.png" />
+    <Content Include="Css2\Jquery\themes\icons\edit_remove.png" />
+    <Content Include="Css2\Jquery\themes\icons\export.png" />
+    <Content Include="Css2\Jquery\themes\icons\filesave.png" />
+    <Content Include="Css2\Jquery\themes\icons\help.png" />
+    <Content Include="Css2\Jquery\themes\icons\login.png" />
+    <Content Include="Css2\Jquery\themes\icons\mini_add.png" />
+    <Content Include="Css2\Jquery\themes\icons\mini_edit.png" />
+    <Content Include="Css2\Jquery\themes\icons\mini_refresh.png" />
+    <Content Include="Css2\Jquery\themes\icons\no.png" />
+    <Content Include="Css2\Jquery\themes\icons\ok.png" />
+    <Content Include="Css2\Jquery\themes\icons\pencil.png" />
+    <Content Include="Css2\Jquery\themes\icons\print.png" />
+    <Content Include="Css2\Jquery\themes\icons\redo.png" />
+    <Content Include="Css2\Jquery\themes\icons\reload.png" />
+    <Content Include="Css2\Jquery\themes\icons\search.png" />
+    <Content Include="Css2\Jquery\themes\icons\select.png" />
+    <Content Include="Css2\Jquery\themes\icons\statistics.png" />
+    <Content Include="Css2\Jquery\themes\icons\sum.png" />
+    <Content Include="Css2\Jquery\themes\icons\tip.png" />
+    <Content Include="Css2\Jquery\themes\icons\undo.png" />
+    <Content Include="Css2\Jquery\themes\icons\upload.png" />
+    <Content Include="Css2\Swf\default.css" />
+    <Content Include="Css2\Swf\swfupload.swf" />
+    <Content Include="Css2\Swf\swfuploadbutton.swf" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images2\App\Udb\site.jpg" />
+    <Content Include="Images2\App\Udb\udb_logo.jpg" />
+    <Content Include="Images2\App\Udb\h_line_1.jpg" />
+    <Content Include="Images2\Comm\gslogo.gif" />
+    <Content Include="Images2\Comm\index_bg.jpg" />
+    <Content Include="Images2\Comm\tree_ico.gif" />
+    <Content Include="Images2\Comm\tree_ico1.gif" />
+    <Content Include="Images\blank.gif" />
+    <Content Include="Images\cancelbutton.gif" />
+    <Content Include="Images\disabled.png" />
+    <Content Include="Images\enabled.png" />
+    <Content Include="Images\Login\login_bg.jpg" />
+    <Content Include="Images\Main\logo.jpg" />
+    <Content Include="Images\Main\main_topbg.jpg" />
+    <Content Include="Images\Swf\Pin16.png" />
+    <Content Include="Images\tree\Blank.gif" />
+    <Content Include="Js2\Ckeditor\adapters\jquery.js" />
+    <Content Include="Js2\Ckeditor\ckeditor.js" />
+    <Content Include="Js2\Ckeditor\ckeditor_basic.js" />
+    <Content Include="Js2\Ckeditor\config.js" />
+    <Content Include="Js2\Ckeditor\contents.css" />
+    <Content Include="Js2\Ckeditor\images\spacer.gif" />
+    <Content Include="Js2\Ckeditor\lang\zh-cn.js" />
+    <Content Include="Js2\Ckeditor\lang\zh.js" />
+    <Content Include="Js2\Ckeditor\lang\_languages.js" />
+    <Content Include="Js2\Ckeditor\lang\_translationstatus.txt" />
+    <Content Include="Js2\Ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js" />
+    <Content Include="Js2\Ckeditor\plugins\a11yhelp\lang\en.js" />
+    <Content Include="Js2\Ckeditor\plugins\a11yhelp\lang\he.js" />
+    <Content Include="Js2\Ckeditor\plugins\about\dialogs\about.js" />
+    <Content Include="Js2\Ckeditor\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="Js2\Ckeditor\plugins\adobeair\plugin.js" />
+    <Content Include="Js2\Ckeditor\plugins\ajax\plugin.js" />
+    <Content Include="Js2\Ckeditor\plugins\autogrow\plugin.js" />
+    <Content Include="Js2\Ckeditor\plugins\bbcode\plugin.js" />
+    <Content Include="Js2\Ckeditor\plugins\clipboard\dialogs\paste.js" />
+    <Content Include="Js2\Ckeditor\plugins\colordialog\dialogs\colordialog.js" />
+    <Content Include="Js2\Ckeditor\plugins\devtools\lang\en.js" />
+    <Content Include="Js2\Ckeditor\plugins\devtools\plugin.js" />
+    <Content Include="Js2\Ckeditor\plugins\dialog\dialogDefinition.js" />
+    <Content Include="Js2\Ckeditor\plugins\div\dialogs\div.js" />
+    <Content Include="Js2\Ckeditor\plugins\docprops\dialogs\docprops.js" />
+    <Content Include="Js2\Ckeditor\plugins\docprops\plugin.js" />
+    <Content Include="Js2\Ckeditor\plugins\find\dialogs\find.js" />
+    <Content Include="Js2\Ckeditor\plugins\flash\dialogs\flash.js" />
+    <Content Include="Js2\Ckeditor\plugins\flash\images\placeholder.png" />
+    <Content Include="Js2\Ckeditor\plugins\forms\dialogs\button.js" />
+    <Content Include="Js2\Ckeditor\plugins\forms\dialogs\checkbox.js" />
+    <Content Include="Js2\Ckeditor\plugins\forms\dialogs\form.js" />
+    <Content Include="Js2\Ckeditor\plugins\forms\dialogs\hiddenfield.js" />
+    <Content Include="Js2\Ckeditor\plugins\forms\dialogs\radio.js" />
+    <Content Include="Js2\Ckeditor\plugins\forms\dialogs\select.js" />
+    <Content Include="Js2\Ckeditor\plugins\forms\dialogs\textarea.js" />
+    <Content Include="Js2\Ckeditor\plugins\forms\dialogs\textfield.js" />
+    <Content Include="Js2\Ckeditor\plugins\forms\images\hiddenfield.gif" />
+    <Content Include="Js2\Ckeditor\plugins\iframedialog\plugin.js" />
+    <Content Include="Js2\Ckeditor\plugins\iframe\dialogs\iframe.js" />
+    <Content Include="Js2\Ckeditor\plugins\iframe\images\placeholder.png" />
+    <Content Include="Js2\Ckeditor\plugins\image\dialogs\image.js" />
+    <Content Include="Js2\Ckeditor\plugins\link\dialogs\anchor.js" />
+    <Content Include="Js2\Ckeditor\plugins\link\dialogs\link.js" />
+    <Content Include="Js2\Ckeditor\plugins\link\images\anchor.gif" />
+    <Content Include="Js2\Ckeditor\plugins\liststyle\dialogs\liststyle.js" />
+    <Content Include="Js2\Ckeditor\plugins\pagebreak\images\pagebreak.gif" />
+    <Content Include="Js2\Ckeditor\plugins\pastefromword\filter\default.js" />
+    <Content Include="Js2\Ckeditor\plugins\pastetext\dialogs\pastetext.js" />
+    <Content Include="Js2\Ckeditor\plugins\placeholder\dialogs\placeholder.js" />
+    <Content Include="Js2\Ckeditor\plugins\placeholder\lang\en.js" />
+    <Content Include="Js2\Ckeditor\plugins\placeholder\lang\he.js" />
+    <Content Include="Js2\Ckeditor\plugins\placeholder\placeholder.gif" />
+    <Content Include="Js2\Ckeditor\plugins\placeholder\plugin.js" />
+    <Content Include="Js2\Ckeditor\plugins\scayt\dialogs\options.js" />
+    <Content Include="Js2\Ckeditor\plugins\scayt\dialogs\toolbar.css" />
+    <Content Include="Js2\Ckeditor\plugins\showblocks\images\block_address.png" />
+    <Content Include="Js2\Ckeditor\plugins\showblocks\images\block_blockquote.png" />
+    <Content Include="Js2\Ckeditor\plugins\showblocks\images\block_div.png" />
+    <Content Include="Js2\Ckeditor\plugins\showblocks\images\block_h1.png" />
+    <Content Include="Js2\Ckeditor\plugins\showblocks\images\block_h2.png" />
+    <Content Include="Js2\Ckeditor\plugins\showblocks\images\block_h3.png" />
+    <Content Include="Js2\Ckeditor\plugins\showblocks\images\block_h4.png" />
+    <Content Include="Js2\Ckeditor\plugins\showblocks\images\block_h5.png" />
+    <Content Include="Js2\Ckeditor\plugins\showblocks\images\block_h6.png" />
+    <Content Include="Js2\Ckeditor\plugins\showblocks\images\block_p.png" />
+    <Content Include="Js2\Ckeditor\plugins\showblocks\images\block_pre.png" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\dialogs\smiley.js" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\angel_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\angry_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\broken_heart.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\confused_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\cry_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\devil_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\embaressed_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\envelope.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\heart.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\kiss.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\lightbulb.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\omg_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\regular_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\sad_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\shades_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\teeth_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\thumbs_down.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\thumbs_up.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\tounge_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\whatchutalkingabout_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\smiley\images\wink_smile.gif" />
+    <Content Include="Js2\Ckeditor\plugins\specialchar\dialogs\specialchar.js" />
+    <Content Include="Js2\Ckeditor\plugins\specialchar\lang\en.js" />
+    <Content Include="Js2\Ckeditor\plugins\stylesheetparser\plugin.js" />
+    <Content Include="Js2\Ckeditor\plugins\styles\styles\default.js" />
+    <Content Include="Js2\Ckeditor\plugins\tableresize\plugin.js" />
+    <Content Include="Js2\Ckeditor\plugins\tabletools\dialogs\tableCell.js" />
+    <Content Include="Js2\Ckeditor\plugins\table\dialogs\table.js" />
+    <Content Include="Js2\Ckeditor\plugins\templates\dialogs\templates.js" />
+    <Content Include="Js2\Ckeditor\plugins\templates\templates\default.js" />
+    <Content Include="Js2\Ckeditor\plugins\templates\templates\images\template1.gif" />
+    <Content Include="Js2\Ckeditor\plugins\templates\templates\images\template2.gif" />
+    <Content Include="Js2\Ckeditor\plugins\templates\templates\images\template3.gif" />
+    <Content Include="Js2\Ckeditor\plugins\uicolor\dialogs\uicolor.js" />
+    <Content Include="Js2\Ckeditor\plugins\uicolor\lang\en.js" />
+    <Content Include="Js2\Ckeditor\plugins\uicolor\lang\he.js" />
+    <Content Include="Js2\Ckeditor\plugins\uicolor\plugin.js" />
+    <Content Include="Js2\Ckeditor\plugins\uicolor\uicolor.gif" />
+    <Content Include="Js2\Ckeditor\plugins\uicolor\yui\assets\hue_bg.png" />
+    <Content Include="Js2\Ckeditor\plugins\uicolor\yui\assets\hue_thumb.png" />
+    <Content Include="Js2\Ckeditor\plugins\uicolor\yui\assets\picker_mask.png" />
+    <Content Include="Js2\Ckeditor\plugins\uicolor\yui\assets\picker_thumb.png" />
+    <Content Include="Js2\Ckeditor\plugins\uicolor\yui\assets\yui.css" />
+    <Content Include="Js2\Ckeditor\plugins\uicolor\yui\yui.js" />
+    <Content Include="Js2\Ckeditor\plugins\wsc\dialogs\ciframe.html" />
+    <Content Include="Js2\Ckeditor\plugins\wsc\dialogs\tmpFrameset.html" />
+    <Content Include="Js2\Ckeditor\plugins\wsc\dialogs\wsc.css" />
+    <Content Include="Js2\Ckeditor\plugins\wsc\dialogs\wsc.js" />
+    <Content Include="Js2\Ckeditor\plugins\xml\plugin.js" />
+    <Content Include="Js2\Ckeditor\skins\kama\dialog.css" />
+    <Content Include="Js2\Ckeditor\skins\kama\editor.css" />
+    <Content Include="Js2\Ckeditor\skins\kama\icons.png" />
+    <Content Include="Js2\Ckeditor\skins\kama\icons_rtl.png" />
+    <Content Include="Js2\Ckeditor\skins\kama\images\dialog_sides.gif" />
+    <Content Include="Js2\Ckeditor\skins\kama\images\dialog_sides.png" />
+    <Content Include="Js2\Ckeditor\skins\kama\images\dialog_sides_rtl.png" />
+    <Content Include="Js2\Ckeditor\skins\kama\images\mini.gif" />
+    <Content Include="Js2\Ckeditor\skins\kama\images\noimage.png" />
+    <Content Include="Js2\Ckeditor\skins\kama\images\sprites.png" />
+    <Content Include="Js2\Ckeditor\skins\kama\images\sprites_ie6.png" />
+    <Content Include="Js2\Ckeditor\skins\kama\images\toolbar_start.gif" />
+    <Content Include="Js2\Ckeditor\skins\kama\skin.js" />
+    <Content Include="Js2\Ckeditor\skins\kama\templates.css" />
+    <Content Include="Js2\Ckeditor\skins\office2003\dialog.css" />
+    <Content Include="Js2\Ckeditor\skins\office2003\editor.css" />
+    <Content Include="Js2\Ckeditor\skins\office2003\icons.png" />
+    <Content Include="Js2\Ckeditor\skins\office2003\icons_rtl.png" />
+    <Content Include="Js2\Ckeditor\skins\office2003\images\dialog_sides.gif" />
+    <Content Include="Js2\Ckeditor\skins\office2003\images\dialog_sides.png" />
+    <Content Include="Js2\Ckeditor\skins\office2003\images\dialog_sides_rtl.png" />
+    <Content Include="Js2\Ckeditor\skins\office2003\images\mini.gif" />
+    <Content Include="Js2\Ckeditor\skins\office2003\images\noimage.png" />
+    <Content Include="Js2\Ckeditor\skins\office2003\images\sprites.png" />
+    <Content Include="Js2\Ckeditor\skins\office2003\images\sprites_ie6.png" />
+    <Content Include="Js2\Ckeditor\skins\office2003\skin.js" />
+    <Content Include="Js2\Ckeditor\skins\office2003\templates.css" />
+    <Content Include="Js2\Ckeditor\skins\v2\dialog.css" />
+    <Content Include="Js2\Ckeditor\skins\v2\editor.css" />
+    <Content Include="Js2\Ckeditor\skins\v2\icons.png" />
+    <Content Include="Js2\Ckeditor\skins\v2\icons_rtl.png" />
+    <Content Include="Js2\Ckeditor\skins\v2\images\dialog_sides.gif" />
+    <Content Include="Js2\Ckeditor\skins\v2\images\dialog_sides.png" />
+    <Content Include="Js2\Ckeditor\skins\v2\images\dialog_sides_rtl.png" />
+    <Content Include="Js2\Ckeditor\skins\v2\images\mini.gif" />
+    <Content Include="Js2\Ckeditor\skins\v2\images\noimage.png" />
+    <Content Include="Js2\Ckeditor\skins\v2\images\sprites.png" />
+    <Content Include="Js2\Ckeditor\skins\v2\images\sprites_ie6.png" />
+    <Content Include="Js2\Ckeditor\skins\v2\images\toolbar_start.gif" />
+    <Content Include="Js2\Ckeditor\skins\v2\skin.js" />
+    <Content Include="Js2\Ckeditor\skins\v2\templates.css" />
+    <Content Include="Js2\Ckeditor\themes\default\theme.js" />
+    <Content Include="Js2\Comm\AjaxTimeout.js" />
+    <Content Include="Js2\Comm\Comm.js" />
+    <Content Include="Js2\Comm\GridView.js" />
+    <Content Include="Js2\Flash\expressInstall.swf" />
+    <Content Include="Js2\Flash\swfobject_modified.js" />
+    <Content Include="Js2\Jquery\easyloader.js" />
+    <Content Include="Js2\Jquery\jquery-1.7.1.min.js" />
+    <Content Include="Js2\Jquery\jquery.easyui.min.js" />
+    <Content Include="Js2\Jquery\locale\easyui-lang-af.js" />
+    <Content Include="Js2\Jquery\locale\easyui-lang-bg.js" />
+    <Content Include="Js2\Jquery\locale\easyui-lang-ca.js" />
+    <Content Include="Js2\Jquery\locale\easyui-lang-cs.js" />
+    <Content Include="Js2\Jquery\locale\easyui-lang-cz.js" />
+    <Content Include="Js2\Jquery\locale\easyui-lang-da.js" />
+    <Content Include="Js2\Jquery\locale\easyui-lang-de.js" />
+    <Content Include="Js2\Jquery\locale\easyui-lang-en.js" />
+    <Content Include="Js2\Jquery\locale\easyui-lang-es.js" />
+    <Content Include="Js2\Jquery\locale\easyui-lang-fr.js" />
+    <Content Include="Js2\Jquery\locale\easyui-lang-nl.js" />
+    <Content Include="Js2\Jquery\locale\easyui-lang-zh_CN.js" />
+    <Content Include="Js2\Jquery\locale\easyui-lang-zh_TW.js" />
+    <Content Include="Js2\SwfJs\fileprogress.js" />
+    <Content Include="Js2\SwfJs\handlers.js" />
+    <Content Include="Js\My97DatePicker\skin\green\datepicker.css" />
+    <Content Include="Js\My97DatePicker\skin\green\img.gif" />
+    <Content Include="Js2\SwfJs\swfupload.js" />
+    <Content Include="Js2\SwfJs\swfupload.queue.js" />
+    <Content Include="Sys\AreaManage\AreaInfo.aspx" />
+    <Content Include="Sys\SystemLog\LogInfo.aspx" />
+    <Content Include="Sys\SystemLog\SysLog.aspx" />
+    <Content Include="Sys\SystemLog\SystemLog.aspx" />
+    <Content Include="Images\Common\buttonbg.gif" />
+    <Content Include="Images\Common\delete.gif" />
+    <Content Include="Images\Common\gslogo.gif" />
+    <Content Include="Images\Common\view.gif" />
+    <Content Include="Images\Filter\clear.gif" />
+    <Content Include="Images\Filter\cleardown.gif" />
+    <Content Include="Images\Filter\filter.gif" />
+    <Content Include="Images\Filter\filterdown.gif" />
+    <Content Include="Images\Frame\1_11.gif" />
+    <Content Include="Images\Frame\b.gif" />
+    <Content Include="Images\Frame\exit.gif" />
+    <Content Include="Images\Frame\logo.gif" />
+    <Content Include="Images\Frame\logout.gif" />
+    <Content Include="Images\Frame\topbg.gif" />
+    <Content Include="Images\Login\login_01.gif" />
+    <Content Include="Images\Login\login_02.gif" />
+    <Content Include="Images\Login\login_03.gif" />
+    <Content Include="Images\Login\login_04.gif" />
+    <Content Include="Images\Login\login_05.gif" />
+    <Content Include="Images\Login\login_06.gif" />
+    <Content Include="Images\Login\pw.gif" />
+    <Content Include="Images\Login\username.gif" />
+    <Content Include="Images\Login\login_button.gif" />
+    <Content Include="Images\MenuImages\AreaInfo.gif" />
+    <Content Include="Images\MenuImages\AreaInfo_over.gif" />
+    <Content Include="Images\MenuImages\break.gif" />
+    <Content Include="Images\MenuImages\break_bg.gif" />
+    <Content Include="Images\MenuImages\ChangePassword.gif" />
+    <Content Include="Images\MenuImages\ChangePassword_over.gif" />
+    <Content Include="Images\MenuImages\help.gif" />
+    <Content Include="Images\MenuImages\help_over.gif" />
+    <Content Include="Images\MenuImages\OLT.gif" />
+    <Content Include="Images\MenuImages\OperatorManage.gif" />
+    <Content Include="Images\MenuImages\OperatorManage_over.gif" />
+    <Content Include="Images\MenuImages\OperRoleManage.gif" />
+    <Content Include="Images\MenuImages\OperRoleManage_over.gif" />
+    <Content Include="Images\MenuImages\SystemLog.gif" />
+    <Content Include="Images\MenuImages\SystemLog_over.gif" />
+    <Content Include="Images\MenuImages\systemmanage.gif" />
+    <Content Include="Images\MenuImages\systemmanage_over.gif" />
+    <Content Include="Images\MenuImages\top_groupBg.gif" />
+    <Content Include="Images\MenuImages\top_group_background.gif" />
+    <Content Include="Images\MenuImages\top_itemHoverBg.gif" />
+    <Content Include="Images\MenuImages\Trouble.gif" />
+    <Content Include="Images\MenuImages\TroubleLogQuery.gif" />
+    <Content Include="Images\MenuImages\TroubleQuery.gif" />
+    <Content Include="Images\SystemManage\area.gif" />
+    <Content Include="Images\SystemManage\areasc.gif" />
+    <Content Include="Images\SystemManage\title04.gif" />
+    <Content Include="Images\TreeView\admin_tools.gif" />
+    <Content Include="Images\TreeView\bg.gif" />
+    <Content Include="Images\TreeView\cd.gif" />
+    <Content Include="Images\TreeView\col.gif" />
+    <Content Include="Images\TreeView\control_panel.gif" />
+    <Content Include="Images\TreeView\desktop.gif" />
+    <Content Include="Images\TreeView\dvd.gif" />
+    <Content Include="Images\TreeView\entire_network.gif" />
+    <Content Include="Images\TreeView\excel.gif" />
+    <Content Include="Images\TreeView\exp.gif" />
+    <Content Include="Images\TreeView\floppy.gif" />
+    <Content Include="Images\TreeView\folder.gif" />
+    <Content Include="Images\TreeView\folder_docs.gif" />
+    <Content Include="Images\TreeView\folder_fonts.gif" />
+    <Content Include="Images\TreeView\folder_music.gif" />
+    <Content Include="Images\TreeView\folder_open.gif" />
+    <Content Include="Images\TreeView\folder_pictures.gif" />
+    <Content Include="Images\TreeView\folder_shared.gif" />
+    <Content Include="Images\TreeView\folder_tasks.gif" />
+    <Content Include="Images\TreeView\folder_web.gif" />
+    <Content Include="Images\TreeView\haiwa.gif" />
+    <Content Include="Images\TreeView\hard_drive.gif" />
+    <Content Include="Images\TreeView\icon-arrow.gif" />
+    <Content Include="Images\TreeView\icon-arrow2.gif" />
+    <Content Include="Images\TreeView\icon-arrow2b.gif" />
+    <Content Include="Images\TreeView\icon-arrow3.gif" />
+    <Content Include="Images\TreeView\icon-arrow3b.gif" />
+    <Content Include="Images\TreeView\icon-bk-guide.gif" />
+    <Content Include="Images\TreeView\icon-bk-pattern.gif" />
+    <Content Include="Images\TreeView\icon-close.gif" />
+    <Content Include="Images\TreeView\icon-closeall.gif" />
+    <Content Include="Images\TreeView\icon-default.gif" />
+    <Content Include="Images\TreeView\icon-expandall.gif" />
+    <Content Include="Images\TreeView\icon-folder-close.gif" />
+    <Content Include="Images\TreeView\icon-folder-open.gif" />
+    <Content Include="Images\TreeView\icon-folder1-close.gif" />
+    <Content Include="Images\TreeView\icon-folder1-open.gif" />
+    <Content Include="Images\TreeView\icon-move-up.gif" />
+    <Content Include="Images\TreeView\icon-page.gif" />
+    <Content Include="Images\TreeView\index_23.jpg" />
+    <Content Include="Images\TreeView\line.gif" />
+    <Content Include="Images\TreeView\lines\dash.gif" />
+    <Content Include="Images\TreeView\lines\dashminus.gif" />
+    <Content Include="Images\TreeView\lines\dashplus.gif" />
+    <Content Include="Images\TreeView\lines\i.gif" />
+    <Content Include="Images\TreeView\lines\l.gif" />
+    <Content Include="Images\TreeView\lines\lminus.gif" />
+    <Content Include="Images\TreeView\lines\lplus.gif" />
+    <Content Include="Images\TreeView\lines\minus.gif" />
+    <Content Include="Images\TreeView\lines\noexpand.gif" />
+    <Content Include="Images\TreeView\lines\plus.gif" />
+    <Content Include="Images\TreeView\lines\r.gif" />
+    <Content Include="Images\TreeView\lines\rminus.gif" />
+    <Content Include="Images\TreeView\lines\rplus.gif" />
+    <Content Include="Images\TreeView\lines\t.gif" />
+    <Content Include="Images\TreeView\lines\tminus.gif" />
+    <Content Include="Images\TreeView\lines\tplus.gif" />
+    <Content Include="Images\TreeView\logo.gif" />
+    <Content Include="Images\TreeView\mycomp.gif" />
+    <Content Include="Images\TreeView\mynet.gif" />
+    <Content Include="Images\TreeView\network_folder.gif" />
+    <Content Include="Images\TreeView\network_node.gif" />
+    <Content Include="Images\TreeView\net_connections.gif" />
+    <Content Include="Images\TreeView\printers.gif" />
+    <Content Include="Images\TreeView\recycle.gif" />
+    <Content Include="Images\TreeView\scanners.gif" />
+    <Content Include="Images\TreeView\scheduled_tasks.gif" />
+    <Content Include="Images\TreeView\spacer.gif" />
+    <Content Include="Images\TreeView\sq_1.gif" />
+    <Content Include="Images\TreeView\sq_2.gif" />
+    <Content Include="Images\TreeView\sq_3.gif" />
+    <Content Include="Images\TreeView\sq_4.gif" />
+    <Content Include="Images\TreeView\test.css" />
+    <Content Include="Images\TreeView\treeData.xml" />
+    <Content Include="Images\TreeView\word.gif" />
+    <Content Include="Images\TreeView\workgroup.gif" />
+    <Content Include="Js\common.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Login.aspx" />
+    <Content Include="Main.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\AreaManage\AreaInfo.aspx.cs">
+      <DependentUpon>AreaInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\AreaManage\AreaInfo.aspx.designer.cs">
+      <DependentUpon>AreaInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\PrivilegeManage\PrivilegeEdit.aspx.cs">
+      <DependentUpon>PrivilegeEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\PrivilegeManage\PrivilegeEdit.aspx.designer.cs">
+      <DependentUpon>PrivilegeEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\PrivilegeManage\PrivilegeManage.aspx.cs">
+      <DependentUpon>PrivilegeManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\PrivilegeManage\PrivilegeManage.aspx.designer.cs">
+      <DependentUpon>PrivilegeManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\PrivilegeManage\PrivilegeUserList.aspx.cs">
+      <DependentUpon>PrivilegeUserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\PrivilegeManage\PrivilegeUserList.aspx.designer.cs">
+      <DependentUpon>PrivilegeUserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\SystemLog\LogInfo.aspx.cs">
+      <DependentUpon>LogInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\SystemLog\LogInfo.aspx.designer.cs">
+      <DependentUpon>LogInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\SystemLog\SysLog.aspx.cs">
+      <DependentUpon>SysLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\SystemLog\SysLog.aspx.designer.cs">
+      <DependentUpon>SysLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\SystemLog\SystemLog.aspx.cs">
+      <DependentUpon>SystemLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\SystemLog\SystemLog.aspx.designer.cs">
+      <DependentUpon>SystemLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sys\UserManage\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\UserManage\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\UserManage\RoleView.aspx.cs">
+      <DependentUpon>RoleView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\UserManage\RoleView.aspx.designer.cs">
+      <DependentUpon>RoleView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\UserManage\UserManage.aspx.cs">
+      <DependentUpon>UserManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\UserManage\UserManage.aspx.designer.cs">
+      <DependentUpon>UserManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\UserManage\UserManageEdit.aspx.cs">
+      <DependentUpon>UserManageEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\UserManage\UserManageEdit.aspx.designer.cs">
+      <DependentUpon>UserManageEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTIMS.Comm\DTIMS.Comm.csproj">
+      <Project>{699A89F1-82E4-4C0B-977D-963D87739E31}</Project>
+      <Name>DTIMS.Comm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTIMS.DataAccess\DTIMS.DataAccess.csproj">
+      <Project>{ABA1425A-2462-4469-A67B-D00850C0C099}</Project>
+      <Name>DTIMS.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sys.Comm\Sys.Comm.csproj">
+      <Project>{6A36A2C3-3549-4070-B053-C8AA855D063A}</Project>
+      <Name>Sys.Comm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sys.EasyUiEx\Sys.EasyUiEx.csproj">
+      <Project>{02B1C0C5-A25F-4A53-9ACC-7D20107F4C5C}</Project>
+      <Name>Sys.EasyUiEx</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sys.SystemManage\Sys.SystemManage.csproj">
+      <Project>{1CC18713-190B-4E26-BA08-77653429DF8E}</Project>
+      <Name>Sys.SystemManage</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CommDll\AjaxControlToolkit.dll" />
+    <Content Include="CommDll\Microsoft.Practices.EnterpriseLibrary.Logging.dll" />
+    <Content Include="CommDll\nunit.framework.dll" />
+    <Content Include="CommDll\nunit.mocks.dll" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\aaa_edit.gif" />
+    <Content Include="Images\aaa_seacher.gif" />
+    <Content Include="Images\aaa_seacherbg.gif" />
+    <Content Include="Images\area.gif" />
+    <Content Include="Images\bottom_left.jpg" />
+    <Content Include="Images\Common\app.ico" />
+    <Content Include="Images\Common\btnAdd.jpg" />
+    <Content Include="Images\Common\buttonbg_gay.gif" />
+    <Content Include="Images\Common\Button_bg.gif" />
+    <Content Include="Images\Common\close.gif" />
+    <Content Include="Images\Common\edit.png" />
+    <Content Include="Images\Common\filesave.png" />
+    <Content Include="Images\Common\loading.gif" />
+    <Content Include="Images\Common\pwdImg.gif" />
+    <Content Include="Images\Common\selectbg.gif" />
+    <Content Include="Images\Common\users.ico" />
+    <Content Include="Images\datalist_bg.gif" />
+    <Content Include="Images\Frame\c.gif" />
+    <Content Include="Images\Frame\index_10.gif" />
+    <Content Include="Images\Frame\menubox_bg.gif" />
+    <Content Include="Images\ico1.jpg" />
+    <Content Include="Images\index_bg.jpg" />
+    <Content Include="Images\index_seacherbg.gif" />
+    <Content Include="Images\index_title_ico.jpg" />
+    <Content Include="Images\jquery\cancel.png" />
+    <Content Include="Images\jquery\close.gif" />
+    <Content Include="Images\jquery\dialog_bc.png" />
+    <Content Include="Images\jquery\dialog_bl.png" />
+    <Content Include="Images\jquery\dialog_br.png" />
+    <Content Include="Images\jquery\dialog_cl.png" />
+    <Content Include="Images\jquery\dialog_cr.png" />
+    <Content Include="Images\jquery\dialog_tc.png" />
+    <Content Include="Images\jquery\dialog_tl.png" />
+    <Content Include="Images\jquery\dialog_tr.png" />
+    <Content Include="Images\jquery\eeGrad2.gif" />
+    <Content Include="Images\jquery\e_bg.jpg" />
+    <Content Include="Images\jquery\e_hd.gif" />
+    <Content Include="Images\jquery\f0f2f5grad.gif" />
+    <Content Include="Images\jquery\fadsfdasfa.jpg" />
+    <Content Include="Images\jquery\fdasfas.jpg" />
+    <Content Include="Images\jquery\jquery.wysiwyg.gif" />
+    <Content Include="Images\jquery\loading.gif" />
+    <Content Include="Images\jquery\loading_tab.gif" />
+    <Content Include="Images\jquery\p_bg.jpg" />
+    <Content Include="Images\jquery\p_hd.gif" />
+    <Content Include="Images\jquery\spin\spin-button.png" />
+    <Content Include="Images\jquery\spin\spin-down.png" />
+    <Content Include="Images\jquery\spin\spin-up.png" />
+    <Content Include="Images\jquery\s_bg.jpg" />
+    <Content Include="Images\jquery\s_hd.gif" />
+    <Content Include="Images\jquery\tab.png" />
+    <Content Include="Images\jquery\uploadbtn.gif" />
+    <Content Include="Images\jquery\uploader.swf" />
+    <Content Include="Images\jquery\w_bg.jpg" />
+    <Content Include="Images\jquery\w_hd.gif" />
+    <Content Include="Images\MenuImages\IPVN.gif" />
+    <Content Include="Images\MenuImages\over_help.gif" />
+    <Content Include="Images\MenuImages\over_IPVN.gif" />
+    <Content Include="Images\nopics.gif" />
+    <Content Include="Images\nosupper.gif" />
+    <Content Include="Images\pagination_first.gif" />
+    <Content Include="Images\pagination_last.gif" />
+    <Content Include="Images\pagination_next.gif" />
+    <Content Include="Images\pagination_prev.gif" />
+    <Content Include="Images\Query\ismp.gif" />
+    <Content Include="Images\Query\title_bg.gif" />
+    <Content Include="Images\supper.gif" />
+    <Content Include="Images\SystemManage\AreaRoot.ico" />
+    <Content Include="Images\SystemManage\AreaSub.ico" />
+    <Content Include="Images\SystemManage\device.bmp" />
+    <Content Include="Images\TabIEThemes\ie_tabbacker_720x296.jpg" />
+    <Content Include="Images\index1.gif" />
+    <Content Include="Images\indexbg1.gif" />
+    <Content Include="Images\input_bg.gif" />
+    <Content Include="Images\input_left.gif" />
+    <Content Include="Images\input_right.gif" />
+    <Content Include="Images\input_textfield_bg.gif" />
+    <Content Include="Images\loginbg.gif" />
+    <Content Include="Images\Login\Login_07.gif" />
+    <Content Include="Images\Login\Login_08.gif" />
+    <Content Include="Images\Login\Login_09.gif" />
+    <Content Include="Images\Login\Login_10.gif" />
+    <Content Include="Images\Login\Login_11.gif" />
+    <Content Include="Images\MenuImages\index_01.gif" />
+    <Content Include="Images\MenuImages\index_AAA.gif" />
+    <Content Include="Images\MenuImages\no_index_02.gif" />
+    <Content Include="Images\MenuImages\no_index_03.gif" />
+    <Content Include="Images\MenuImages\no_index_04.gif" />
+    <Content Include="Images\MenuImages\no_index_05.gif" />
+    <Content Include="Images\MenuImages\no_index_06.gif" />
+    <Content Include="Images\MenuImages\no_index_07.gif" />
+    <Content Include="Images\MenuImages\no_index_08.gif" />
+    <Content Include="Images\MenuImages\exit.gif" />
+    <Content Include="Images\MenuImages\index_02.gif" />
+    <Content Include="Images\MenuImages\index_03.gif" />
+    <Content Include="Images\MenuImages\index_04.gif" />
+    <Content Include="Images\MenuImages\index_05.gif" />
+    <Content Include="Images\MenuImages\index_06.gif" />
+    <Content Include="Images\MenuImages\index_07.gif" />
+    <Content Include="Images\MenuImages\index_08.gif" />
+    <Content Include="Images\MenuImages\index_09.gif" />
+    <Content Include="Images\MenuImages\logout.gif" />
+    <Content Include="Images\MenuImages\over_exit.gif" />
+    <Content Include="Images\MenuImages\over_index_02.gif" />
+    <Content Include="Images\MenuImages\over_index_03.gif" />
+    <Content Include="Images\MenuImages\over_index_04.gif" />
+    <Content Include="Images\MenuImages\over_index_05.gif" />
+    <Content Include="Images\MenuImages\over_index_06.gif" />
+    <Content Include="Images\MenuImages\over_index_07.gif" />
+    <Content Include="Images\MenuImages\over_index_08.gif" />
+    <Content Include="Images\MenuImages\over_index_AAA.gif" />
+    <Content Include="Images\MenuImages\over_logout.gif" />
+    <Content Include="Images\Menu\menu_action.gif" />
+    <Content Include="Images\Menu\menu_arrow1.gif" />
+    <Content Include="Images\Menu\menu_collapsed_create.gif" />
+    <Content Include="Images\Menu\menu_collapsed_data.gif" />
+    <Content Include="Images\Menu\menu_collapsed_fun.gif" />
+    <Content Include="Images\Menu\menu_collapsed_log.gif" />
+    <Content Include="Images\Menu\menu_collapsed_mail.gif" />
+    <Content Include="Images\Menu\menu_collapsed_member.gif" />
+    <Content Include="Images\Menu\menu_collapsed_plugin.gif" />
+    <Content Include="Images\Menu\menu_collapsed_safety.gif" />
+    <Content Include="Images\Menu\menu_collapsed_sys.gif" />
+    <Content Include="Images\Menu\menu_collapsed_theme.gif" />
+    <Content Include="Images\Menu\menu_collapsed_tianyi.gif" />
+    <Content Include="Images\Menu\menu_title.gif" />
+    <Content Include="Images\over_aaa_seacherbg.gif" />
+    <Content Include="Images\Query\lablebg.gif" />
+    <Content Include="Images\Query\lablebg1.gif" />
+    <Content Include="Images\Query\over_lablebg.gif" />
+    <Content Include="Images\Query\over_lablebg1.gif" />
+    <Content Include="Images\Query\query_title.gif" />
+    <Content Include="Images\Query\title.gif" />
+    <Content Include="Images\search.gif" />
+    <Content Include="Images\sort_titlebg.gif" />
+    <Content Include="Images\TabIEThemes\tab_selected.gif" />
+    <Content Include="Images\TabIEThemes\tab_unselected.gif" />
+    <Content Include="Images\table_Dialog_title_bg.gif" />
+    <Content Include="Images\titlebg.gif" />
+    <Content Include="Images\titlebg1.gif" />
+    <Content Include="Images\title_ico.gif" />
+    <Content Include="Images\topbj.jpg" />
+    <Content Include="Images\TreeView\menu1.ico" />
+    <Content Include="Images\TreeView\menu2.ico" />
+    <Content Include="Images\TreeView\menu4.ico" />
+    <Content Include="Images\tree\ab.gif" />
+    <Content Include="Images\tree\base.gif" />
+    <Content Include="Images\tree\empty.gif" />
+    <Content Include="Images\tree\folder.gif" />
+    <Content Include="Images\tree\folderopen.gif" />
+    <Content Include="Images\tree\join.gif" />
+    <Content Include="Images\tree\joinbottom.gif" />
+    <Content Include="Images\tree\line.gif" />
+    <Content Include="Images\tree\link.gif" />
+    <Content Include="Images\tree\minus.gif" />
+    <Content Include="Images\tree\minusbottom.gif" />
+    <Content Include="Images\tree\page.gif" />
+    <Content Include="Images\tree\plus.gif" />
+    <Content Include="Images\tree\plusbottom.gif" />
+    <Content Include="Images\tree\res_mainbg.gif" />
+    <Content Include="Js\jquery-spin.js" />
+    <Content Include="Js\jquery.easyui.min.js" />
+    <Content Include="Js\jquery.uploadify.js" />
+    <Content Include="Js\jquery.wysiwyg.js" />
+    <Content Include="Js\My97DatePicker\calendar.js" />
+    <Content Include="Js\My97DatePicker\config.js" />
+    <Content Include="Js\My97DatePicker\lang\en.js" />
+    <Content Include="Js\My97DatePicker\lang\zh-cn.js" />
+    <Content Include="Js\My97DatePicker\lang\zh-tw.js" />
+    <Content Include="Js\My97DatePicker\My97DatePicker.htm" />
+    <Content Include="Js\My97DatePicker\readme.txt" />
+    <Content Include="Js\My97DatePicker\skin\blueFresh\datepicker.css" />
+    <Content Include="Js\My97DatePicker\skin\blueFresh\img.gif" />
+    <Content Include="Js\My97DatePicker\skin\blue\bg.jpg" />
+    <Content Include="Js\My97DatePicker\skin\blue\btnbg.jpg" />
+    <Content Include="Js\My97DatePicker\skin\blue\datepicker.css" />
+    <Content Include="Js\My97DatePicker\skin\blue\down.jpg" />
+    <Content Include="Js\My97DatePicker\skin\blue\left.gif" />
+    <Content Include="Js\My97DatePicker\skin\blue\navLeft.gif" />
+    <Content Include="Js\My97DatePicker\skin\blue\navRight.gif" />
+    <Content Include="Js\My97DatePicker\skin\blue\qs.jpg" />
+    <Content Include="Js\My97DatePicker\skin\blue\right.gif" />
+    <Content Include="Js\My97DatePicker\skin\blue\up.jpg" />
+    <Content Include="Js\My97DatePicker\skin\datePicker.gif" />
+    <Content Include="Js\My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="Js\My97DatePicker\skin\default\img.gif" />
+    <Content Include="Js\My97DatePicker\skin\ext\datepicker.css" />
+    <Content Include="Js\My97DatePicker\skin\ext\dateselect.gif" />
+    <Content Include="Js\My97DatePicker\skin\ext\glass-bg.gif" />
+    <Content Include="Js\My97DatePicker\skin\ext\hd-sprite.gif" />
+    <Content Include="Js\My97DatePicker\skin\ext\img.gif" />
+    <Content Include="Js\My97DatePicker\skin\ext\left-btn.gif" />
+    <Content Include="Js\My97DatePicker\skin\ext\left-btn2.gif" />
+    <Content Include="Js\My97DatePicker\skin\ext\right-btn.gif" />
+    <Content Include="Js\My97DatePicker\skin\ext\right-btn2.gif" />
+    <Content Include="Js\My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="Js\My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="Js\My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="Js\My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="Js\My97DatePicker\skin\YcloudRed\bg.gif" />
+    <Content Include="Js\My97DatePicker\skin\YcloudRed\datepicker.css" />
+    <Content Include="Js\My97DatePicker\skin\YcloudRed\qs.jpg" />
+    <Content Include="Js\My97DatePicker\WdatePicker.js" />
+    <Content Include="Js\prototype.js" />
+    <Content Include="Js\subModal.js" />
+    <Content Include="Js\validate.js" />
+    <Content Include="Sys\PrivilegeManage\PrivilegeEdit.aspx" />
+    <Content Include="Sys\PrivilegeManage\PrivilegeManage.aspx" />
+    <Content Include="Sys\PrivilegeManage\PrivilegeUserList.aspx" />
+    <Content Include="Sys\UserManage\ChangePassword.aspx" />
+    <Content Include="Sys\UserManage\RoleView.aspx" />
+    <Content Include="Sys\UserManage\UserManage.aspx" />
+    <Content Include="Sys\UserManage\UserManageEdit.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\JqueryEasyUi\GridView.skin" />
+    <Content Include="App_Themes\JqueryEasyUi\DataGrid.skin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App\" />
+    <Folder Include="Css2\Jquery\themes\gray\images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>del *.pdb</PostBuildEvent>
+  </PropertyGroup>
+</Project>

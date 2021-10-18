@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<appSettings>
+    <add key="Corporation" value="Inphase"></add>
+    <add key="WebServicePort" value="3001"></add>
+    <add key="From" value="Inphase"></add>
+    <add key="To" value="IVPNNPI"></add>
+    <add key="QueryType" value="Query"></add>
+    <add key="Url" value="http://133.37.91.185:30204/NPITEST.XML/"></add>
+    <add key="UserName" value="hlr"></add>
+    <add key="Password" value="8a76319249af3810e6def07b414d1451"></add>
+    <add key="TargetAddress" value="133.37.91.185"></add>
+    <add key="TL1ConnectionTimeout" value="10"></add>
+    <add key="TL1AppWaitingTimeout" value="60"></add>
+    <add key="TL1ServerIPAddress" value="133.37.68.1"></add>
+    <add key="TL1ServerPort" value="9818"></add>
+    <add key="TL1UserName" value="ls_osstest"></add>
+    <add key="TL1Password" value="iadn2000"></add>
+    <add key="TL1LogPath" value="D:\IADTL1Log\"></add>
+    <add key="TL1LogWrite" value="TRUE"></add>
+  </appSettings>
+</root>

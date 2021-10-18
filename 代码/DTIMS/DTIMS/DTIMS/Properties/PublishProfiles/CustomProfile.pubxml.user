@@ -1,0 +1,2239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\FBWJ</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/excel2007.xlsx">
+      <publishTime>01/12/2019 22:06:21</publishTime>
+    </File>
+    <File Include="App_Themes/JqueryEasyUi/DataGrid.skin">
+      <publishTime>08/17/2012 13:22:58</publishTime>
+    </File>
+    <File Include="App_Themes/JqueryEasyUi/GridView.skin">
+      <publishTime>08/21/2012 16:26:34</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>08/09/2012 09:52:14</publishTime>
+    </File>
+    <File Include="bin/CKEditor.NET.dll">
+      <publishTime>08/09/2012 09:51:50</publishTime>
+    </File>
+    <File Include="bin/DTIMS.Common.dll">
+      <publishTime>05/11/2019 10:36:13</publishTime>
+    </File>
+    <File Include="bin/DTIMS.Common.pdb">
+      <publishTime>05/11/2019 10:36:13</publishTime>
+    </File>
+    <File Include="bin/DTIMS.DataAccess.dll">
+      <publishTime>05/11/2019 10:36:14</publishTime>
+    </File>
+    <File Include="bin/DTIMS.DataAccess.pdb">
+      <publishTime>05/11/2019 10:36:14</publishTime>
+    </File>
+    <File Include="bin/DTIMS.dll">
+      <publishTime>05/11/2019 10:36:14</publishTime>
+    </File>
+    <File Include="bin/ExcelDemoFor2.0.1.dll">
+      <publishTime>01/12/2019 21:10:49</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>03/06/2013 07:13:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>08/09/2012 09:51:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll">
+      <publishTime>08/09/2012 09:52:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>08/09/2012 09:51:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll">
+      <publishTime>08/09/2012 09:52:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ObjectBuilder.dll">
+      <publishTime>08/09/2012 09:52:00</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/20/2017 20:03:18</publishTime>
+    </File>
+    <File Include="bin/NPOI.dll">
+      <publishTime>03/06/2013 07:17:44</publishTime>
+    </File>
+    <File Include="bin/NPOI.OOXML.dll">
+      <publishTime>03/06/2013 07:17:48</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXml4Net.dll">
+      <publishTime>03/06/2013 07:17:47</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXmlFormats.dll">
+      <publishTime>03/06/2013 07:17:46</publishTime>
+    </File>
+    <File Include="bin/PaymentClient.dll">
+      <publishTime>12/27/2018 20:35:45</publishTime>
+    </File>
+    <File Include="bin/PaymentModel.dll">
+      <publishTime>12/16/2018 14:03:07</publishTime>
+    </File>
+    <File Include="bin/Sys.Comm.dll">
+      <publishTime>05/11/2019 10:36:13</publishTime>
+    </File>
+    <File Include="bin/Sys.Comm.pdb">
+      <publishTime>05/11/2019 10:36:13</publishTime>
+    </File>
+    <File Include="bin/Sys.EasyUiEx.dll">
+      <publishTime>05/11/2019 10:36:13</publishTime>
+    </File>
+    <File Include="bin/Sys.EasyUiEx.pdb">
+      <publishTime>05/11/2019 10:36:13</publishTime>
+    </File>
+    <File Include="bin/Sys.SystemManage.dll">
+      <publishTime>05/11/2019 10:36:13</publishTime>
+    </File>
+    <File Include="bin/Sys.SystemManage.pdb">
+      <publishTime>12/15/2018 14:34:08</publishTime>
+    </File>
+    <File Include="CommDll/AjaxControlToolkit.dll">
+      <publishTime>08/09/2012 09:52:14</publishTime>
+    </File>
+    <File Include="CommDll/CKEditor.NET.dll">
+      <publishTime>08/09/2012 09:51:50</publishTime>
+    </File>
+    <File Include="CommDll/Excel.dll">
+      <publishTime>08/09/2012 09:52:12</publishTime>
+    </File>
+    <File Include="CommDll/Interop.Excel.dll">
+      <publishTime>08/09/2012 09:52:00</publishTime>
+    </File>
+    <File Include="CommDll/Interop.Office.dll">
+      <publishTime>08/09/2012 09:52:00</publishTime>
+    </File>
+    <File Include="CommDll/Interop.VBIDE.dll">
+      <publishTime>08/09/2012 09:51:50</publishTime>
+    </File>
+    <File Include="CommDll/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>08/09/2012 09:51:54</publishTime>
+    </File>
+    <File Include="CommDll/Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll">
+      <publishTime>08/09/2012 09:52:00</publishTime>
+    </File>
+    <File Include="CommDll/Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll">
+      <publishTime>08/09/2012 09:51:52</publishTime>
+    </File>
+    <File Include="CommDll/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>08/09/2012 09:51:56</publishTime>
+    </File>
+    <File Include="CommDll/Microsoft.Practices.EnterpriseLibrary.Logging.dll">
+      <publishTime>08/09/2012 09:52:00</publishTime>
+    </File>
+    <File Include="CommDll/Microsoft.Practices.ObjectBuilder.dll">
+      <publishTime>08/09/2012 09:52:00</publishTime>
+    </File>
+    <File Include="CommDll/Newtonsoft.Json.dll">
+      <publishTime>03/20/2017 20:03:18</publishTime>
+    </File>
+    <File Include="CommDll/nunit.framework.dll">
+      <publishTime>08/09/2012 09:52:06</publishTime>
+    </File>
+    <File Include="CommDll/nunit.mocks.dll">
+      <publishTime>08/09/2012 09:52:02</publishTime>
+    </File>
+    <File Include="CommDll/Office.dll">
+      <publishTime>08/09/2012 09:52:06</publishTime>
+    </File>
+    <File Include="CommDll/VBIDE.dll">
+      <publishTime>08/09/2012 09:52:02</publishTime>
+    </File>
+    <File Include="Config/SystemConsent.xml">
+      <publishTime>12/15/2018 15:03:20</publishTime>
+    </File>
+    <File Include="Css2/Comm/Comm.css">
+      <publishTime>10/10/2012 16:49:10</publishTime>
+    </File>
+    <File Include="Css2/Comm/GridView.css">
+      <publishTime>09/20/2012 11:27:54</publishTime>
+    </File>
+    <File Include="Css2/Frame.css">
+      <publishTime>08/09/2012 09:52:16</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/accordion.css">
+      <publishTime>08/09/2012 09:52:16</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/calendar.css">
+      <publishTime>08/09/2012 09:52:16</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/combo.css">
+      <publishTime>08/09/2012 09:52:16</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/combobox.css">
+      <publishTime>08/09/2012 09:52:16</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/datagrid.css">
+      <publishTime>08/09/2012 09:52:16</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/datebox.css">
+      <publishTime>08/09/2012 09:52:16</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/dialog.css">
+      <publishTime>08/09/2012 09:52:16</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/easyui.css">
+      <publishTime>08/09/2012 09:52:16</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/accordion_collapse.png">
+      <publishTime>08/09/2012 09:52:24</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/accordion_expand.png">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/blank.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/button_a_bg.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/button_plain_hover.png">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/button_span_bg.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/calendar_nextmonth.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/calendar_nextyear.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/calendar_prevmonth.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/calendar_prevyear.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/combo_arrow.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/datagrid_header_bg.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/datagrid_row_collapse.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/datagrid_row_expand.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/datagrid_sort_asc.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/datagrid_sort_desc.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/datagrid_title_bg.png">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/datebox_arrow.png">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/layout_button_down.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/layout_button_left.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/layout_button_right.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/layout_button_up.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/menu.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/menu_downarrow.png">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/menu_rightarrow.png">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/menu_sep.png">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/menu_split_downarrow.png">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/messager_error.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/messager_info.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/messager_question.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/messager_warning.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/pagination_first.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/pagination_last.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/pagination_load.png">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/pagination_loading.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/pagination_next.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/pagination_prev.gif">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/panel_loading.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/panel_title.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/panel_tools.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/panel_tool_collapse.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/panel_tool_expand.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/searchbox_button.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/spinner_arrow_down.gif">
+      <publishTime>08/09/2012 09:52:26</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/spinner_arrow_up.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tabs_active.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tabs_close.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tabs_enabled.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tabs_leftarrow.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tabs_rightarrow.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tree_arrows.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tree_checkbox_0.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tree_checkbox_1.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tree_checkbox_2.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tree_dnd_no.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tree_dnd_yes.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tree_file.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tree_folder.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tree_folder_open.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/tree_loading.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/validatebox_pointer.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/images/validatebox_warning.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/layout.css">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/linkbutton.css">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/menu.css">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/menubutton.css">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/messager.css">
+      <publishTime>08/09/2012 09:52:16</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/pagination.css">
+      <publishTime>08/09/2012 09:52:16</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/panel.css">
+      <publishTime>08/09/2012 09:52:16</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/progressbar.css">
+      <publishTime>08/09/2012 09:52:16</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/propertygrid.css">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/searchbox.css">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/spinner.css">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/splitbutton.css">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/tabs.css">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/tree.css">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/validatebox.css">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/default/window.css">
+      <publishTime>08/09/2012 09:52:18</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icon.css">
+      <publishTime>12/26/2012 15:12:58</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/allSelect.png">
+      <publishTime>08/09/2012 09:52:28</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/auth.png">
+      <publishTime>12/26/2012 15:12:58</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/back.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/batchOpenAccount.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/blank.gif">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/cancel.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/Clear.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/cut.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/edit_add.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/edit_remove.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/export.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/filesave.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/help.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/login.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/mini_add.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/mini_edit.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/mini_refresh.png">
+      <publishTime>08/09/2012 09:52:20</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/no.png">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/ok.png">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/pencil.png">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/print.png">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/redo.png">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/reload.png">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/search.png">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/select.png">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/statistics.png">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/sum.png">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/tip.png">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/undo.png">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Jquery/themes/icons/upload.png">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Swf/default.css">
+      <publishTime>08/09/2012 16:37:06</publishTime>
+    </File>
+    <File Include="Css2/Swf/swfupload.swf">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Css2/Swf/swfuploadbutton.swf">
+      <publishTime>08/09/2012 09:52:22</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/28/2018 15:41:54</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/15/2018 15:03:28</publishTime>
+    </File>
+    <File Include="Images/aaa_edit.gif">
+      <publishTime>08/09/2012 09:52:28</publishTime>
+    </File>
+    <File Include="Images/aaa_seacher.gif">
+      <publishTime>08/09/2012 09:52:28</publishTime>
+    </File>
+    <File Include="Images/aaa_seacherbg.gif">
+      <publishTime>08/09/2012 09:52:28</publishTime>
+    </File>
+    <File Include="Images/area.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/blank.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/bottom_left.jpg">
+      <publishTime>08/09/2012 09:52:28</publishTime>
+    </File>
+    <File Include="Images/cancelbutton.gif">
+      <publishTime>08/09/2012 09:52:28</publishTime>
+    </File>
+    <File Include="Images/Common/app.ico">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/Common/btnAdd.jpg">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/Common/buttonbg.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Common/buttonbg_gay.gif">
+      <publishTime>08/09/2012 09:52:36</publishTime>
+    </File>
+    <File Include="Images/Common/Button_bg.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Common/close.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Common/delete.gif">
+      <publishTime>08/17/2012 13:22:56</publishTime>
+    </File>
+    <File Include="Images/Common/edit.png">
+      <publishTime>08/17/2012 13:22:58</publishTime>
+    </File>
+    <File Include="Images/Common/filesave.png">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Common/gslogo.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Common/loading.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Common/pwdImg.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Common/selectbg.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Common/users.ico">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/Common/view.gif">
+      <publishTime>08/17/2012 13:22:56</publishTime>
+    </File>
+    <File Include="Images/datalist_bg.gif">
+      <publishTime>08/09/2012 09:52:28</publishTime>
+    </File>
+    <File Include="Images/disabled.png">
+      <publishTime>08/09/2012 09:52:28</publishTime>
+    </File>
+    <File Include="Images/enabled.png">
+      <publishTime>08/09/2012 09:52:28</publishTime>
+    </File>
+    <File Include="Images/Filter/clear.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Filter/cleardown.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Filter/filter.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Filter/filterdown.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Frame/1_11.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Frame/b.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Frame/c.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Frame/exit.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Frame/index_10.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Frame/logo.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Frame/logout.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Frame/menubox_bg.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/Frame/topbg.gif">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/ico1.jpg">
+      <publishTime>08/09/2012 09:52:28</publishTime>
+    </File>
+    <File Include="Images/index1.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/indexbg1.gif">
+      <publishTime>08/09/2012 09:52:28</publishTime>
+    </File>
+    <File Include="Images/index_bg.jpg">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/index_seacherbg.gif">
+      <publishTime>08/09/2012 09:52:28</publishTime>
+    </File>
+    <File Include="Images/index_title_ico.jpg">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/input_bg.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/input_left.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/input_right.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/input_textfield_bg.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/jquery/cancel.png">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/close.gif">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/dialog_bc.png">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/dialog_bl.png">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/dialog_br.png">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/dialog_cl.png">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/dialog_cr.png">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/dialog_tc.png">
+      <publishTime>08/09/2012 09:52:36</publishTime>
+    </File>
+    <File Include="Images/jquery/dialog_tl.png">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/dialog_tr.png">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/eeGrad2.gif">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/e_bg.jpg">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/e_hd.gif">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/f0f2f5grad.gif">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/fadsfdasfa.jpg">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/fdasfas.jpg">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/jquery.wysiwyg.gif">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/loading.gif">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/loading_tab.gif">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/p_bg.jpg">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/p_hd.gif">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/spin/spin-button.png">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/spin/spin-down.png">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/spin/spin-up.png">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/s_bg.jpg">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/s_hd.gif">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/tab.png">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/uploadbtn.gif">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/uploader.swf">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/jquery/w_bg.jpg">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/jquery/w_hd.gif">
+      <publishTime>08/09/2012 09:52:34</publishTime>
+    </File>
+    <File Include="Images/Login/login_01.gif">
+      <publishTime>12/26/2012 15:13:00</publishTime>
+    </File>
+    <File Include="Images/Login/login_02.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Login/login_03.gif">
+      <publishTime>08/09/2012 09:52:36</publishTime>
+    </File>
+    <File Include="Images/Login/login_04.gif">
+      <publishTime>08/09/2012 09:52:36</publishTime>
+    </File>
+    <File Include="Images/Login/login_05.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Login/login_06.gif">
+      <publishTime>08/09/2012 09:52:36</publishTime>
+    </File>
+    <File Include="Images/Login/Login_07.gif">
+      <publishTime>08/09/2012 09:52:36</publishTime>
+    </File>
+    <File Include="Images/Login/Login_08.gif">
+      <publishTime>08/09/2012 09:52:36</publishTime>
+    </File>
+    <File Include="Images/Login/Login_09.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Login/Login_10.gif">
+      <publishTime>08/09/2012 09:52:36</publishTime>
+    </File>
+    <File Include="Images/Login/Login_11.gif">
+      <publishTime>08/09/2012 09:52:36</publishTime>
+    </File>
+    <File Include="Images/Login/login_bg.jpg">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Login/login_button.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Login/pw.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Login/username.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/loginbg.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/Main/logo.jpg">
+      <publishTime>12/26/2012 15:13:00</publishTime>
+    </File>
+    <File Include="Images/Main/main_topbg.jpg">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_action.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_arrow1.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_collapsed_create.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_collapsed_data.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_collapsed_fun.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_collapsed_log.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_collapsed_mail.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_collapsed_member.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_collapsed_plugin.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_collapsed_safety.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_collapsed_sys.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_collapsed_theme.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_collapsed_tianyi.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/Menu/menu_title.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/AreaInfo.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/MenuImages/AreaInfo_over.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/MenuImages/break.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/MenuImages/break_bg.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/MenuImages/ChangePassword.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/MenuImages/ChangePassword_over.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/MenuImages/exit.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/help.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/MenuImages/help_over.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/MenuImages/index_01.gif">
+      <publishTime>08/09/2012 09:52:38</publishTime>
+    </File>
+    <File Include="Images/MenuImages/index_02.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/index_03.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/index_04.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/index_05.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/index_06.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/index_07.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/index_08.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/index_09.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/index_AAA.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/IPVN.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/logout.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/no_index_02.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/no_index_03.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/no_index_04.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/no_index_05.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/no_index_06.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/no_index_07.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/no_index_08.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/OLT.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/OperatorManage.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/OperatorManage_over.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/OperRoleManage.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/OperRoleManage_over.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/over_exit.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/over_help.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/over_index_02.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/over_index_03.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/over_index_04.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/over_index_05.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/over_index_06.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/over_index_07.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/over_index_08.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/over_index_AAA.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/over_IPVN.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/over_logout.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/SystemLog.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/SystemLog_over.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/systemmanage.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/systemmanage_over.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/top_groupBg.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/top_group_background.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/top_itemHoverBg.gif">
+      <publishTime>08/09/2012 09:52:40</publishTime>
+    </File>
+    <File Include="Images/MenuImages/Trouble.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/MenuImages/TroubleLogQuery.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/MenuImages/TroubleQuery.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/nopics.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/nosupper.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/over_aaa_seacherbg.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/pagination_first.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/pagination_last.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/pagination_next.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/pagination_prev.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/Query/ismp.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/Query/lablebg.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/Query/lablebg1.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/Query/over_lablebg.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/Query/over_lablebg1.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/Query/query_title.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/Query/title.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/Query/title_bg.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/search.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/sort_titlebg.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/supper.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/Swf/Pin16.png">
+      <publishTime>08/09/2012 12:22:46</publishTime>
+    </File>
+    <File Include="Images/SystemManage/area.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/SystemManage/AreaRoot.ico">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/SystemManage/areasc.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/SystemManage/AreaSub.ico">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/SystemManage/device.bmp">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/SystemManage/title04.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TabIEThemes/ie_tabbacker_720x296.jpg">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TabIEThemes/tab_selected.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TabIEThemes/tab_unselected.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/table_Dialog_title_bg.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/titlebg.gif">
+      <publishTime>08/09/2012 09:52:32</publishTime>
+    </File>
+    <File Include="Images/titlebg1.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/title_ico.gif">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/topbj.jpg">
+      <publishTime>08/09/2012 09:52:30</publishTime>
+    </File>
+    <File Include="Images/tree/ab.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/base.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/Blank.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/empty.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/folder.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/folderopen.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/join.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/joinbottom.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/line.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/link.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/minus.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/minusbottom.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/page.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/plus.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/plusbottom.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/tree/res_mainbg.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/admin_tools.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/bg.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/cd.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/col.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/control_panel.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/desktop.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/dvd.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/entire_network.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/excel.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/exp.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/floppy.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/folder.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/folder_docs.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/folder_fonts.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/folder_music.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/folder_open.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/folder_pictures.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/folder_shared.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/folder_tasks.gif">
+      <publishTime>08/09/2012 09:52:42</publishTime>
+    </File>
+    <File Include="Images/TreeView/folder_web.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/haiwa.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/hard_drive.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-arrow.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-arrow2.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-arrow2b.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-arrow3.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-arrow3b.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-bk-guide.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-bk-pattern.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-close.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-closeall.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-default.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-expandall.gif">
+      <publishTime>08/09/2012 09:52:46</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-folder-close.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-folder-open.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-folder1-close.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-folder1-open.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-move-up.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/icon-page.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/index_23.jpg">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/line.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/dash.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/dashminus.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/dashplus.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/i.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/l.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/lminus.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/lplus.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/minus.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/noexpand.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/plus.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/r.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/rminus.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/rplus.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/t.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/tminus.gif">
+      <publishTime>08/09/2012 09:52:46</publishTime>
+    </File>
+    <File Include="Images/TreeView/lines/tplus.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/logo.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/menu1.ico">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/menu2.ico">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/menu4.ico">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/mycomp.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/mynet.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/network_folder.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/network_node.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/net_connections.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/printers.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/recycle.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/scanners.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/scheduled_tasks.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/spacer.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/sq_1.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/sq_2.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/sq_3.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/sq_4.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/test.css">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/treeData.xml">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/word.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images/TreeView/workgroup.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images2/App/Udb/h_line_1.jpg">
+      <publishTime>12/26/2012 15:12:58</publishTime>
+    </File>
+    <File Include="Images2/App/Udb/site.jpg">
+      <publishTime>12/26/2012 15:13:02</publishTime>
+    </File>
+    <File Include="Images2/App/Udb/udb_logo.jpg">
+      <publishTime>12/26/2012 15:13:00</publishTime>
+    </File>
+    <File Include="Images2/Comm/gslogo.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images2/Comm/index_bg.jpg">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Images2/Comm/tree_ico.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="Images2/Comm/tree_ico1.gif">
+      <publishTime>08/09/2012 09:52:44</publishTime>
+    </File>
+    <File Include="images3/bj.png">
+      <publishTime>12/12/2018 22:44:00</publishTime>
+    </File>
+    <File Include="images3/bj2.png">
+      <publishTime>12/01/2018 12:28:50</publishTime>
+    </File>
+    <File Include="images3/bj3.png">
+      <publishTime>12/12/2018 22:28:06</publishTime>
+    </File>
+    <File Include="images3/bjnote3.jpg">
+      <publishTime>12/16/2018 10:19:20</publishTime>
+    </File>
+    <File Include="images3/dcLog.png">
+      <publishTime>12/16/2018 10:24:54</publishTime>
+    </File>
+    <File Include="images3/dcLog1 %282%29.png">
+      <publishTime>12/12/2018 22:19:44</publishTime>
+    </File>
+    <File Include="images3/dcLog1.png">
+      <publishTime>12/10/2018 23:17:12</publishTime>
+    </File>
+    <File Include="images3/maintop.jpg">
+      <publishTime>12/10/2018 23:39:58</publishTime>
+    </File>
+    <File Include="images3/maintopright.png">
+      <publishTime>12/12/2018 22:23:24</publishTime>
+    </File>
+    <File Include="images3/主页面细长条5.jpg">
+      <publishTime>12/16/2018 10:11:26</publishTime>
+    </File>
+    <File Include="Js/common.js">
+      <publishTime>10/10/2013 15:46:06</publishTime>
+    </File>
+    <File Include="Js/ExcelJs.js">
+      <publishTime>05/03/2019 11:08:18</publishTime>
+    </File>
+    <File Include="Js/jquery-spin.js">
+      <publishTime>08/09/2012 09:52:46</publishTime>
+    </File>
+    <File Include="Js/jquery.easyui.min.js">
+      <publishTime>12/22/2018 00:54:54</publishTime>
+    </File>
+    <File Include="Js/jquery.uploadify.js">
+      <publishTime>08/09/2012 09:52:46</publishTime>
+    </File>
+    <File Include="Js/jquery.wysiwyg.js">
+      <publishTime>08/09/2012 09:52:46</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/calendar.js">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/config.js">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/lang/en.js">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/lang/zh-cn.js">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/lang/zh-tw.js">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/My97DatePicker.htm">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/readme.txt">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/blue/bg.jpg">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/blue/btnbg.jpg">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/blue/datepicker.css">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/blue/down.jpg">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/blue/left.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/blue/navLeft.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/blue/navRight.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/blue/qs.jpg">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/blue/right.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/blue/up.jpg">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/blueFresh/datepicker.css">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/blueFresh/img.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/datePicker.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/default/datepicker.css">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/default/img.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/ext/datepicker.css">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/ext/dateselect.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/ext/glass-bg.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/ext/hd-sprite.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/ext/img.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/ext/left-btn.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/ext/left-btn2.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/ext/right-btn.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/ext/right-btn2.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/green/datepicker.css">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/green/img.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/WdatePicker.css">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/whyGreen/bg.jpg">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/whyGreen/datepicker.css">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/whyGreen/img.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/YcloudRed/bg.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/YcloudRed/datepicker.css">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/skin/YcloudRed/qs.jpg">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/My97DatePicker/WdatePicker.js">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/prototype.js">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/subModal.js">
+      <publishTime>08/09/2012 09:52:46</publishTime>
+    </File>
+    <File Include="Js/validate.js">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js/xlsx.full.min.js">
+      <publishTime>01/13/2019 10:48:15</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/adapters/jquery.js">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/ckeditor.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/ckeditor_basic.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/config.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/contents.css">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/images/spacer.gif">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/lang/zh-cn.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/lang/zh.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/lang/_languages.js">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/lang/_translationstatus.txt">
+      <publishTime>08/09/2012 09:52:48</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/a11yhelp/lang/en.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/a11yhelp/lang/he.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/about/dialogs/about.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/about/dialogs/logo_ckeditor.png">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/adobeair/plugin.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/ajax/plugin.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/autogrow/plugin.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/bbcode/plugin.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/clipboard/dialogs/paste.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/colordialog/dialogs/colordialog.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/devtools/lang/en.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/devtools/plugin.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/dialog/dialogDefinition.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/div/dialogs/div.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/docprops/dialogs/docprops.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/docprops/plugin.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/find/dialogs/find.js">
+      <publishTime>08/09/2012 09:52:50</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/flash/dialogs/flash.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/flash/images/placeholder.png">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/forms/dialogs/button.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/forms/dialogs/checkbox.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/forms/dialogs/form.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/forms/dialogs/hiddenfield.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/forms/dialogs/radio.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/forms/dialogs/select.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/forms/dialogs/textarea.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/forms/dialogs/textfield.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/forms/images/hiddenfield.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/iframe/dialogs/iframe.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/iframe/images/placeholder.png">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/iframedialog/plugin.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/image/dialogs/image.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/link/dialogs/anchor.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/link/dialogs/link.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/link/images/anchor.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/liststyle/dialogs/liststyle.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/pagebreak/images/pagebreak.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/pastefromword/filter/default.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/pastetext/dialogs/pastetext.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/placeholder/dialogs/placeholder.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/placeholder/lang/en.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/placeholder/lang/he.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/placeholder/placeholder.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/placeholder/plugin.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/scayt/dialogs/options.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/scayt/dialogs/toolbar.css">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/showblocks/images/block_address.png">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/showblocks/images/block_blockquote.png">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/showblocks/images/block_div.png">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/showblocks/images/block_h1.png">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/showblocks/images/block_h2.png">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/showblocks/images/block_h3.png">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/showblocks/images/block_h4.png">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/showblocks/images/block_h5.png">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/showblocks/images/block_h6.png">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/showblocks/images/block_p.png">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/showblocks/images/block_pre.png">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/dialogs/smiley.js">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/angel_smile.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/angry_smile.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/broken_heart.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/confused_smile.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/cry_smile.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/devil_smile.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/embaressed_smile.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/envelope.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/heart.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/kiss.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/lightbulb.gif">
+      <publishTime>08/09/2012 09:52:52</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/omg_smile.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/regular_smile.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/sad_smile.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/shades_smile.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/teeth_smile.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/thumbs_down.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/thumbs_up.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/tounge_smile.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/smiley/images/wink_smile.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/specialchar/dialogs/specialchar.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/specialchar/lang/en.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/styles/styles/default.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/stylesheetparser/plugin.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/table/dialogs/table.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/tableresize/plugin.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/tabletools/dialogs/tableCell.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/templates/dialogs/templates.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/templates/templates/default.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/templates/templates/images/template1.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/templates/templates/images/template2.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/templates/templates/images/template3.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/uicolor/dialogs/uicolor.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/uicolor/lang/en.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/uicolor/lang/he.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/uicolor/plugin.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/uicolor/uicolor.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/uicolor/yui/assets/hue_bg.png">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/uicolor/yui/assets/hue_thumb.png">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/uicolor/yui/assets/picker_mask.png">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/uicolor/yui/assets/picker_thumb.png">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/uicolor/yui/assets/yui.css">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/uicolor/yui/yui.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/wsc/dialogs/ciframe.html">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/wsc/dialogs/tmpFrameset.html">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/wsc/dialogs/wsc.css">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/wsc/dialogs/wsc.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/plugins/xml/plugin.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/dialog.css">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/editor.css">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/icons.png">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/icons_rtl.png">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/images/dialog_sides.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/images/dialog_sides.png">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/images/dialog_sides_rtl.png">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/images/mini.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/images/noimage.png">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/images/sprites.png">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/images/sprites_ie6.png">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/images/toolbar_start.gif">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/skin.js">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/kama/templates.css">
+      <publishTime>08/09/2012 09:52:54</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/office2003/dialog.css">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/office2003/editor.css">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/office2003/icons.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/office2003/icons_rtl.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/office2003/images/dialog_sides.gif">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/office2003/images/dialog_sides.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/office2003/images/dialog_sides_rtl.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/office2003/images/mini.gif">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/office2003/images/noimage.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/office2003/images/sprites.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/office2003/images/sprites_ie6.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/office2003/skin.js">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/office2003/templates.css">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/dialog.css">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/editor.css">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/icons.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/icons_rtl.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/images/dialog_sides.gif">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/images/dialog_sides.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/images/dialog_sides_rtl.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/images/mini.gif">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/images/noimage.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/images/sprites.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/images/sprites_ie6.png">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/images/toolbar_start.gif">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/skin.js">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/skins/v2/templates.css">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Ckeditor/themes/default/theme.js">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Comm/AjaxTimeout.js">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Comm/Comm.js">
+      <publishTime>12/22/2018 11:47:49</publishTime>
+    </File>
+    <File Include="Js2/Comm/GridView.js">
+      <publishTime>09/12/2012 16:35:42</publishTime>
+    </File>
+    <File Include="Js2/Excel/JsonExportExcel.min.js">
+      <publishTime>01/16/2019 21:40:10</publishTime>
+    </File>
+    <File Include="Js2/Flash/expressInstall.swf">
+      <publishTime>12/04/2012 11:38:20</publishTime>
+    </File>
+    <File Include="Js2/Flash/swfobject_modified.js">
+      <publishTime>12/04/2012 11:38:20</publishTime>
+    </File>
+    <File Include="Js2/Jquery/easyloader.js">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Jquery/jquery-1.7.1.min.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/Jquery/jquery.easyui.min.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/Jquery/locale/easyui-lang-af.js">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Jquery/locale/easyui-lang-bg.js">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Jquery/locale/easyui-lang-ca.js">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Jquery/locale/easyui-lang-cs.js">
+      <publishTime>08/09/2012 09:52:56</publishTime>
+    </File>
+    <File Include="Js2/Jquery/locale/easyui-lang-cz.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/Jquery/locale/easyui-lang-da.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/Jquery/locale/easyui-lang-de.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/Jquery/locale/easyui-lang-en.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/Jquery/locale/easyui-lang-es.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/Jquery/locale/easyui-lang-fr.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/Jquery/locale/easyui-lang-nl.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/Jquery/locale/easyui-lang-zh_CN.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/Jquery/locale/easyui-lang-zh_TW.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/SwfJs/fileprogress.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/SwfJs/handlers.js">
+      <publishTime>08/17/2012 15:41:18</publishTime>
+    </File>
+    <File Include="Js2/SwfJs/swfupload.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Js2/SwfJs/swfupload.queue.js">
+      <publishTime>08/09/2012 09:52:58</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>12/16/2018 12:09:00</publishTime>
+    </File>
+    <File Include="Main.aspx">
+      <publishTime>12/15/2018 19:39:21</publishTime>
+    </File>
+    <File Include="Sys/AreaManage/AreaInfo.aspx">
+      <publishTime>11/28/2018 15:41:54</publishTime>
+    </File>
+    <File Include="Sys/hbmdMnager/hbmdAdd.aspx">
+      <publishTime>01/01/2019 19:14:40</publishTime>
+    </File>
+    <File Include="Sys/hbmdMnager/hbmdInfo.aspx">
+      <publishTime>12/27/2018 21:17:44</publishTime>
+    </File>
+    <File Include="Sys/hbmdMnager/hbmdLog.aspx">
+      <publishTime>05/06/2019 16:26:04</publishTime>
+    </File>
+    <File Include="Sys/hbmdMnager/hbmdQuery.aspx">
+      <publishTime>05/03/2019 11:04:11</publishTime>
+    </File>
+    <File Include="Sys/IPMnager/IPEdit.aspx">
+      <publishTime>12/22/2018 13:46:22</publishTime>
+    </File>
+    <File Include="Sys/IPMnager/IPMnager.aspx">
+      <publishTime>12/22/2018 14:21:26</publishTime>
+    </File>
+    <File Include="Sys/PrivilegeManage/PrivilegeEdit.aspx">
+      <publishTime>12/15/2018 16:23:04</publishTime>
+    </File>
+    <File Include="Sys/PrivilegeManage/PrivilegeManage.aspx">
+      <publishTime>11/28/2018 15:43:28</publishTime>
+    </File>
+    <File Include="Sys/PrivilegeManage/PrivilegeUserList.aspx">
+      <publishTime>11/28/2018 15:43:50</publishTime>
+    </File>
+    <File Include="Sys/SystemLog/LogInfo.aspx">
+      <publishTime>12/02/2018 12:17:52</publishTime>
+    </File>
+    <File Include="Sys/SystemLog/SysLog.aspx">
+      <publishTime>11/28/2018 15:45:24</publishTime>
+    </File>
+    <File Include="Sys/SystemLog/SystemLog.aspx">
+      <publishTime>12/16/2018 12:52:41</publishTime>
+    </File>
+    <File Include="Sys/UserManage/ChangePassword.aspx">
+      <publishTime>11/28/2018 15:46:20</publishTime>
+    </File>
+    <File Include="Sys/UserManage/IpConfig.aspx">
+      <publishTime>12/15/2018 11:53:56</publishTime>
+    </File>
+    <File Include="Sys/UserManage/RoleView.aspx">
+      <publishTime>11/28/2018 15:47:10</publishTime>
+    </File>
+    <File Include="Sys/UserManage/UserManage.aspx">
+      <publishTime>12/15/2018 12:36:24</publishTime>
+    </File>
+    <File Include="Sys/UserManage/UserManageEdit.aspx">
+      <publishTime>12/15/2018 15:33:50</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/28/2018 21:06:09</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

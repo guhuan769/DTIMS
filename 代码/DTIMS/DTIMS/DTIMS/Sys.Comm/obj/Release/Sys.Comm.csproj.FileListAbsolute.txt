@@ -1,0 +1,5 @@
+E:\Developer\2012_CTQS-四川电信网络综合查询系统\04_源代码\WEB\CTQS\Sys.Comm\bin\Release\Sys.Comm.dll
+E:\Developer\2012_CTQS-四川电信网络综合查询系统\04_源代码\WEB\CTQS\Sys.Comm\bin\Release\Sys.Comm.pdb
+E:\Developer\2012_CTQS-四川电信网络综合查询系统\04_源代码\WEB\CTQS\Sys.Comm\obj\Release\ResolveAssemblyReference.cache
+E:\Developer\2012_CTQS-四川电信网络综合查询系统\04_源代码\WEB\CTQS\Sys.Comm\obj\Release\Sys.Comm.dll
+E:\Developer\2012_CTQS-四川电信网络综合查询系统\04_源代码\WEB\CTQS\Sys.Comm\obj\Release\Sys.Comm.pdb
