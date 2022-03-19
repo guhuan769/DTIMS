@@ -1,0 +1,2 @@
+git config --global http.proxy "127.0.0.1:8000"  git config --global https.proxy "127.0.0.1:8000"  
+如果开启了VPN 那么设置代理为127.0.0.1:8000 
